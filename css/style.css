@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+ul li {
+  list-style: none; }
+
+.box {
+  width: 100px;
+  height: 200px;
+  margin: 0 auto;
+  background: red;
+  border: 1px solid #000; }
+  .box span {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    text-indent: 2em;
+    background: black;
+    line-height: 100%;
+    border: 1px solid #000; }
