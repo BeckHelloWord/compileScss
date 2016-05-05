@@ -10,19 +10,25 @@ ul li {
 .box {
   width: 100px;
   height: 200px;
-  margin:0 auto;
+  padding: 10px;
+  margin: 0 auto;
   background: red;
   border: 1px solid #000;
+  background: url(../images/app_action03.jpg);
   span {
     display: inline-block;
     width: 200px;
     height: 200px;
+    padding: 5px;
     color: #fff;
     font-size: 12px;
     text-align: center;
     text-indent: 2em;
     background: black;
     line-height: 100%;
-    border: 1px solid #000;
+    background: url(../images/app_action03.jpg) no-repeat;
+  }
+  img{
+    vertical-align: middle;
   }
 }
